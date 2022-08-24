@@ -36,7 +36,7 @@ For example:
    
 #### 3. Docker build with the Deepstream version(DS_VER) and CUDA version(CUDA_VER) you set 
 ```
-      docker build -f Dockerfile_amd_arg.dockerfile --build-arg DS_VER=6.1 --build-arg CUDA_VER=11.6 . 
+      docker build -f Dockerfile_amd_arg.dockerfile --build-arg DS_VER=6.1 --build-arg CUDA_VER=11.6 -t test . 
 ``` 
 
 #### 4. Copy the parser library generated in the container to the host
