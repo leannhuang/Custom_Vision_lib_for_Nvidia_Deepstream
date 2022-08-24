@@ -24,16 +24,11 @@ The goal of this repo is to be able to generate the custom vision parser libary 
 
 #### 1. Clone the repo
 
-#### 2. Cd to the corresponding folder for the architecture you want to build for
+#### 2. Open the terminal and cd to the corresponding folder for the architecture you want to build for
 For example:
 
 ```
       cd amd64
-``` 
-OR
-
-```
-      cd arm64
 ``` 
   
    
@@ -47,4 +42,9 @@ OR
       docker cp $(docker create test):/cv_parser_lib/libnvdsinfer_custom_impl_Yolo.so $(pwd)/lib_output/
 ``` 
 
+
 You should be able to see the corresponding parser lib has been generated in the lib_output folder
+
+
+#### Credit and references 
+[NVIDIA-Deepstream-Azure-IoT-Edge-on-a-NVIDIA-Jetson-Nano](https://github.com/Azure-Samples/NVIDIA-Deepstream-Azure-IoT-Edge-on-a-NVIDIA-Jetson-Nano)
