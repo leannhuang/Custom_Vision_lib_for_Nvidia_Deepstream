@@ -1,7 +1,7 @@
 # custom-vision-parser-lib-for-nvidia-deepstream
-The goal of this repo is to be able to generate the custom vision parser libary automatically according to your CUDA version and Deepstream Version   
+The goal of this repo is to be able to generate the custom vision parser library automatically according to your CUDA version and Deepstream Version   
 
-[!note] The parser lib should be able to be generated under the situation that the Nivia deepstream dictories naming rules for the new version haven't changed. If the dictories of the Nvidia deepstream have changed, you can go to the Dockerfile directly to change the base image and corresponding directory to compile the parser lib 
+[!note] The parser lib should be able to be generated under the situation that the Nvidia deepstream directories naming rules for the new version don’t change. If the directories of the Nvidia deepstream have changed, you can reference the Dockerfile directly to change the base image and corresponding directory to compile the parser lib. 
 
 
 ## Content
@@ -44,8 +44,9 @@ For example:
       docker cp $(docker create test):/cv_parser_lib/libnvdsinfer_custom_impl_Yolo.so $(pwd)/lib_output/
 ``` 
 
-
+#### 5. Get your parser library in the lib_output folder
 You should be able to see the corresponding parser lib has been generated in the lib_output folder
+
 
 
 
