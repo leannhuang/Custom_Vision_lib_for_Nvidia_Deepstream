@@ -1,6 +1,8 @@
 # custom-vision-parser-lib-for-nvidia-deepstream
 The goal of this repo is to be able to generate the custom vision parser libary automatically according to your CUDA version and Deepstream Version   
 
+[!note] The parser lib should be able to be generated under the situation that the Nivia deepstream dictories naming rules for the new version haven't changed. You can go to the Dockerfile to change the base image or corresponding directory to compile your parser lib if the dictories of the Nvidia deepstream have changed.
+
 
 ## Content
 | File             | Description                                                   |
@@ -44,6 +46,8 @@ For example:
 
 
 You should be able to see the corresponding parser lib has been generated in the lib_output folder
+
+
 
 
 ## Credit and references 
