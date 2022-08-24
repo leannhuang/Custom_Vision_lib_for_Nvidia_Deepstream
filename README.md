@@ -46,5 +46,5 @@ For example:
 You should be able to see the corresponding parser lib has been generated in the lib_output folder
 
 
-#### Credit and references 
+## Credit and references 
 [NVIDIA-Deepstream-Azure-IoT-Edge-on-a-NVIDIA-Jetson-Nano](https://github.com/Azure-Samples/NVIDIA-Deepstream-Azure-IoT-Edge-on-a-NVIDIA-Jetson-Nano)
