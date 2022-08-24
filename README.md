@@ -1,1 +1,1 @@
-# Custom_Vision_lib_for_Nvidia_Deepstream
+# custom-vision-parser-lib-for-nvidia-deepstream
