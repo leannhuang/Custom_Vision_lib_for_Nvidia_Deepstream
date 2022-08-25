@@ -35,6 +35,9 @@ For example:
   
    
 #### 3. Docker build with the Deepstream version(DS_VER) and CUDA version(CUDA_VER) you set 
+check the mapping table of the Deepstream version and CUDA version [here](https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_Quickstart.html)
+![dgpu-mapping-table](docs/images/dgpu-mapping-table.png)
+
 ```
       docker build -f Dockerfile_amd_arg.dockerfile --build-arg DS_VER=6.1 --build-arg CUDA_VER=11.6 -t test . 
 ``` 
