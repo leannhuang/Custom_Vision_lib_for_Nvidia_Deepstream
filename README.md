@@ -45,6 +45,12 @@ check the mapping table of the Deepstream version and CUDA version [here](https:
 
 #### 4. Copy the parser library generated in the container to the host
 ```
+      sudo su
+``` 
+```
+      mkdir lib_output
+``` 
+```
       docker cp $(docker create test):/cv_parser_lib/libnvdsinfer_custom_impl_Yolo.so $(pwd)/lib_output/
 ``` 
 
