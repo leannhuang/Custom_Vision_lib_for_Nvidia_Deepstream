@@ -400,9 +400,9 @@ static bool NvDsInferParseYoloV2(
     const float nmsThreshold, const float probthreshold)
 {
     static const std::vector<float> kANCHORS = {
-        18.3273602, 21.6763191, 59.9827194, 66.0009613,
-        106.829758, 175.178879, 252.250244, 112.888962,
-        312.656647, 293.384949 };
+        34.56, 38.08, 109.44, 141.12, 
+        212.16, 364.16, 301.44, 163.52, 
+        531.84, 336.64 };
     const uint kNUM_BBOXES = 5;
 
     if (outputLayersInfo.empty()) {
